@@ -59,18 +59,49 @@
 // document.write(F2,"°F ","is"," ",C2,"°C")
 
 //7)
-var heading="SHOPPING CART"
-document.write(heading.bold(),"<br><br><br>")
-var priceitem1=650
-var priceitem2=100
-var quantityitem1=3
-var quantityitem2=7
-var shippingcharges=100
-document.write("Price of item 1 is ",priceitem1,"<br>","Quantity of item 1 is ",quantityitem1,"<br>")
-document.write("Price of item 2 is ",priceitem2,"<br>","Quantity of item 2 is ",quantityitem2,"<br>")
-document.write("Shipping charges ",shippingcharges,"<br><br>")
+// var heading="SHOPPING CART"
+// document.write(heading.bold(),"<br><br><br>")
+// var priceitem1=650
+// var priceitem2=100
+// var quantityitem1=3
+// var quantityitem2=7
+// var shippingcharges=100
+// document.write("Price of item 1 is ",priceitem1,"<br>","Quantity of item 1 is ",quantityitem1,"<br>")
+// document.write("Price of item 2 is ",priceitem2,"<br>","Quantity of item 2 is ",quantityitem2,"<br>")
+// document.write("Shipping charges ",shippingcharges,"<br><br>")
 
-totalcost=priceitem1*quantityitem1+priceitem2*quantityitem2+shippingcharges
-document.write("Total cost of your order is ",totalcost)
+// totalcost=priceitem1*quantityitem1+priceitem2*quantityitem2+shippingcharges
+// document.write("Total cost of your order is ",totalcost)
 
+//8)
+// var heading="MARKS SHEET"
+// var totalmarks=980
+// var marksobtained=804
+// document.write(heading.bold(),"<br><br><br><br>")
+
+// document.write("Total Marks: ",totalmarks,"<br>")
+// document.write("Marks obtained: ",marksobtained,"<br>")
+// percentage=marksobtained/totalmarks*100
+// document.write("Percentage: ",percentage)
+
+//9)
+// var heading="Currency in PKR"
+// document.write(heading.bold(),"<br><br><br><br>")
+// var $=10
+// var SR=25
+// conversiontotal=$*104.80+SR*28
+// document.write("Total currency in PKR: ",conversiontotal)
+
+//10)
+// var num=20
+// document.write(num + 5 * 10 / 2)
+
+//11)
+// var heading="Age Calculator"
+// document.write(heading.bold(),"<br><br><br><br>")
+// var currentyear=2016
+// var birthyear=1992
+// Age=currentyear-birthyear
+// document.write("Current Year: ",currentyear,"<br>","Birth Year: ",birthyear,"<br>")
+// document.write("Your Age is: ",Age)
 
